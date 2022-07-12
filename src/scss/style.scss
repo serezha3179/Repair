@@ -1,0 +1,87 @@
+@import 'reset.scss';
+@import 'header.scss';
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.172;
+    color: #000;
+    background: #E5E5E5;
+}
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0px 16px;
+}
+
+/////////////////// header //////////////////////////
+.logo__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.logo__link img {
+    margin-right: 25px;
+}
+.logo__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+}
+.logo__title span {
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.166;
+    margin-top: 5px;
+}
+.social {
+    display: flex;
+}
+.social__image {
+    margin: 0px 5.5px;
+}
+.schedule {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.schedule__items {
+    display: flex;
+    align-items: center;
+}
+
+.schedule__title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.172;
+    
+}
+
+.schedule__text span {
+    display: block;
+}
+.phone-wrapper {
+    display: flex;
+}
+.phone {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+.button__link {
+    padding: 13px 21px 13px 21px; 
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+//////////////////////// header /////////////////////////

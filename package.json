@@ -12,7 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.27.7",
-    "del": "^6.0.0",
+    "del": "^6.1.1",
     "fs": "^0.0.1-security",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
@@ -38,5 +38,8 @@
     "webp-converter": "2.2.3",
     "webpack": "^5.70.0",
     "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "gulp-sourcemaps": "^3.0.0"
   }
 }

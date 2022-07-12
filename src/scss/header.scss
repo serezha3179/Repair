@@ -1,0 +1,112 @@
+.header {
+    padding: 16px 0px;
+    background: linear-gradient(90deg, #443682 14.58%, #28418A 39.75%, #00669C 68.41%);
+
+}
+.header-container {
+    max-width: 1642px;
+    margin: 0 auto;
+    padding: 0px 16px;
+}
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+}
+@media (max-width: 1490px) {
+    .header__wrapper {
+        justify-content: space-around;
+    }
+}
+@media (max-width: 992px) {
+    .header__wrapper {
+        justify-content: space-between;
+    }
+}
+.header__logo-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+@media (max-width: 1490px) {
+    .header__logo-wrapper {
+        flex-direction: column;
+    }
+}
+.header__logo {
+    display: flex;
+    margin-right: 50px;
+}
+@media (max-width: 768px) {
+    .header__logo .logo__image{
+        width: 66px;
+        height: 66px;
+    }
+}
+.header__social {
+    margin-right: 88px;
+}
+@media (max-width: 1490px) {
+    .header__social {
+        margin-left: 88px;
+    }
+}
+@media (max-width: 768px) {
+    .header__social img{
+        width: 23px;
+        height: 23px;
+    }
+}
+.header__items-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 1490px) {
+    .header__items-wrapper {
+        flex-direction: column-reverse;
+
+    }
+}
+.header__schedule .schedule__image {
+    margin-right: 10px;
+}
+.header__schedule .schedule__title {
+    margin-right: 30px;
+}
+@media (max-width: 1490px) {
+    .header__schedule .schedule__title {
+        display: none;
+    }
+}
+@media (max-width: 1490px) {
+    .header__schedule {
+        justify-content: flex-end;
+    }
+}
+.header__schedule .schedule__text {
+    margin-right: 72px;
+}
+@media (max-width: 1490px) {
+    .header__schedule .schedule__text {
+        margin-right: 0px;
+    }
+}
+@media (max-width: 1490px) {
+    .header__phone-wrapper {
+        justify-content: flex-end;
+    }
+}
+
+.header__phone {
+    margin-right: 18px;
+}
+.header__phone .phone__image {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+@media (max-width: 992px) {
+    .header__button-link.button__link {
+        padding: 11px 21px 11px 21px; 
+    }
+}
