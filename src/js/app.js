@@ -1,4 +1,5 @@
 import * as flsFunctions from './modules/functions.js';
+import './burger.js'
 
 flsFunctions.testWebP(function (support) {
     
@@ -8,8 +9,3 @@ flsFunctions.testWebP(function (support) {
     document.querySelector('body').classList.add('no-webp');
     }
 }); 
-
-
-document.querySelector('.block').addEventListener('click', function() {document.querySelector('.block').classList.toggle('aaaaa')});
- 
-// alert()
