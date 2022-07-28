@@ -2,9 +2,30 @@
     padding: 16px 0px;
     background: 
     linear-gradient(90deg, #443682 14.58%, #28418A 39.75%, #00669C 68.41%);
-    position: fixed;
+    position: absolute;
     width: 100%;
-    height: 100%;
+    // height: 100%;
+    height: 126px;
+}
+@media (max-width: 1490px) {
+    .header {
+        height: 156px;
+    }
+}
+@media (max-width: 768px) {
+    .header {
+        height: 133px;
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        height: 115px;
+    }
+}
+@media (max-width: 480px) {
+    .header {
+        height: 107px;
+    }
 }
 .header-container {
     max-width: 1642px;
@@ -31,7 +52,6 @@
 @media (max-width: 992px) {
     .header__wrapper {
         justify-content: space-between;
-        // align-items: center;
     }
 }
 @media (max-width: 767px) {
@@ -142,7 +162,6 @@
     .header__social {
         justify-content: flex-start;
         margin-left: 17px;
-        // margin-right: 28px;
         margin-top: 10px;
     }
 }
@@ -154,30 +173,21 @@
 .header__items-wrapper {
     display: flex;
     justify-content: space-around;
-    // justify-content: space-between;
 }
 @media (max-width: 1490px) {
     .header__items-wrapper {
         flex-direction: column-reverse;
-        // justify-content: center;
     }
 }
 @media (max-width: 767px) {
     .header__items-wrapper {
         flex-direction: row;
-        // position: absolute;
-        // top: 109px;
-        // left: 50%;
-        // transform: translate(-50%);
-        // color: transparent;
         z-index: 1;
         width: 100%;
-        // padding: 0px 16px;
         background: white;
         border-radius: 0px 0px 20px 20px;
     }
 }
-
 .header__schedule {
     display: flex;
     align-items: center;
@@ -212,8 +222,6 @@
 @media (max-width: 768px) {
     .header__schedule-text {
         font-size: 13px;
-        // color: #5F24A8;
-        // margin-right: 72px;
     }
 }
 .header__schedule-text span {
@@ -274,9 +282,7 @@
 }
 @media (max-width: 767px) {
     .header__phone {
-        // color: #00669C;
         background: linear-gradient(135deg, #5F24A8 20%, #01669C 70%);
-        // background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         // display: inline-block;
@@ -325,7 +331,6 @@
 }
 @media (max-width: 767px) {
     .header__button-link {
-        // color: #00669C;
         background: linear-gradient(135deg, #5F24A8 20%, #01669C 70%);
         // background-clip: text;
         -webkit-background-clip: text;
