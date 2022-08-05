@@ -33,6 +33,7 @@ body {
   box-shadow: 2px 8px 30px 0px #00bb34;
   border-radius: 10px;
   color: white;
+  text-align: center;
 }
 .title {
   font-family: "Roboto", sans-serif;
@@ -175,11 +176,6 @@ body {
     left: 21%;
   }
 }
-@media (max-width: 800px) {
-  .hero__image {
-    // left: 17%;
-  }
-}
 @media (max-width: 767px) {
   .hero__image {
     left: 17%;
@@ -214,7 +210,6 @@ body {
 }
 ///////////////////////////////////// services /////////////////////////////
 .services {
-  padding: 30px 0px 115px;
   padding: 30px 0px 0px;
 }
 @media (max-width: 768px) {
@@ -227,7 +222,7 @@ body {
     padding: 30px 0px 59px;
   }
 }
-@media (max-width: 574px) {
+@media (max-width: 497px) {
   .services {
     background: url('../img/services/services_bg1.png') no-repeat 100% 32%,
                 url('../img/services/services_bg2.png') no-repeat 0% 95%;
@@ -699,5 +694,179 @@ position: relative;
 @media (max-width: 768px) {
   .services-cost__item-title {
     max-width: 212px;
+  }
+}
+////////////////////////////////// prices ///////////////////////////////////////
+.prices {
+  padding: 50px 0px;
+}
+.prices__title {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  margin-bottom: 40px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.181;
+}
+@media (max-width: 992px) {
+  .prices__title {
+    font-size: 18px;
+    line-height: 1.171;
+  }
+}
+.prices__items-wrapper {
+  border: 1px solid #999999;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.prices__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 22px 0px 22px 56px;
+  border-bottom: 1px solid #999999;
+}
+@media (max-width: 800px) {
+  .prices__items {
+    padding: 22px 0px 22px 12px;
+  }
+}
+@media (max-width: 574px) {
+  .prices__items {
+    flex-direction: column;
+    padding: 22px 12px;
+  }
+}
+.prices__items:nth-child(odd) {
+  background: rgba(228, 249, 255, 0.68);
+}
+.prices__items:last-child {
+  padding: 36px 56px 41px;
+  justify-content: flex-start;
+}
+@media (max-width: 800px) {
+  .prices__items:last-child {
+    justify-content: flex-start;
+    padding: 36px 56px 41px 12px;
+  }
+}
+@media (max-width: 574px) {
+  .prices__items:last-child {
+    justify-content: center;
+    padding: 36px 12px 41px 12px;
+    text-align: center;
+  }
+}
+.prices__item {
+  position: relative;
+  display: flex;
+  flex: 1 1 33.3333%;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 667px) {
+  .prices__item {
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 574px) {
+  .prices__item {
+    text-align: center;
+    padding: 0px 20px;
+  }
+}
+@media (max-width: 574px) {
+  .prices__item:first-child{
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 667px) {
+  .prices__item:last-child {
+    display: none;
+  }
+}
+.prices__item:nth-child(1) {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  justify-content: flex-start;
+}
+@media (max-width: 992px) {
+  .prices__item:nth-child(1) {
+    font-size: 16px;
+    line-height: 1.171;
+    padding-right: 10px;
+  }
+}
+.prices__item:nth-child(2) {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.15;
+  border-left: 1px solid #999999;
+  border-right: 1px solid #999999;
+  min-height: 55px;
+}
+@media (max-width: 992px) {
+  .prices__item:nth-child(2) {
+    min-height: 35px;
+  }
+}
+@media (max-width: 992px) {
+  .prices__item:nth-child(2) {
+    font-size: 16px;
+    line-height: 1.171;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 667px) {
+  .prices__item:nth-child(2) {
+    justify-content: flex-start;
+    padding: 0px 12px;
+    border-right: none;
+  }
+}
+@media (max-width: 574px) {
+  .prices__item:nth-child(2) {
+    border-left: none;
+  }
+}
+.prices__item:nth-child(2) span {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.166;
+  color: #FF5C00;
+  margin-left: 10px;
+}
+@media (max-width: 992px) {
+  .prices__item:nth-child(2) span {
+    font-size: 20px;
+    line-height: 1.172;
+  }
+}
+@media (max-width: 992px) {
+  .prices__button {
+    padding: 10px 17px;
+  }
+}
+.prices__items-link {
+  text-decoration: underline;
+  font-style: italic;
+  color: black;
+}
+.prices__item-button {
+  display: none;
+}
+@media (max-width: 667px) {
+  .prices__item-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+@media (max-width: 320px) {
+  .prices__item-button .button {
+      padding: 13px 25px;
   }
 }
