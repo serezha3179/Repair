@@ -263,9 +263,6 @@ body {
   background: linear-gradient(180deg, #a6dbf5 0%, #451874 97.92%);
   border-radius: 28px;
 }
-.services__item:last-child {
-  margin-bottom: 0px;
-}
 @media (max-width: 630px) {
   .services__item {
     flex: 0 0 209px;
@@ -696,9 +693,11 @@ position: relative;
     max-width: 212px;
   }
 }
-////////////////////////////////// prices ///////////////////////////////////////
+
+///////////////////////////////////////// prices ///////////////////////////////////
+
 .prices {
-  padding: 50px 0px;
+  padding: 25px 0px;
 }
 .prices__title {
   display: inline-block;
@@ -870,3 +869,247 @@ position: relative;
       padding: 13px 25px;
   }
 }
+
+//////////////////////////////////////// urgent-repair //////////////////////////////////////
+.urgent-repair {
+  padding: 25px 0px;
+  overflow: hidden;
+  position: relative;
+}
+@media (max-width: 574px) {
+  .urgent-repair {
+    
+    overflow: hidden;
+    position: inherit;
+  }
+}
+.urgent-repair__title {
+  max-width: 637px;
+  margin-bottom: 73px;
+}
+@media (max-width: 768px) {
+  .urgent-repair__title {
+    font-size: 20px;
+    line-height: 1.172;
+    max-width: 637px;
+    margin-bottom: 73px;
+  }
+}
+@media (max-width: 574px) {
+  .urgent-repair__title {
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 320px) {
+  .urgent-repair__title {
+    font-size: 15px;
+    line-height: 1.172;
+  }
+}
+.urgent-repair__title span {
+  display: block;
+}
+.urgent-repair__title span:last-child {
+  display: inline-block;
+  color: #676767;
+}
+.urgent-repair__wrapper {
+  display: flex;
+}
+@media (max-width: 574px) {
+  .urgent-repair__wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.urgent-repair__items {
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 574px) {
+  .urgent-repair__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: static;
+    margin: 18px 0px 50px;
+  }
+}
+.urgent-repair__item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.181;
+  color: white;
+  margin: 16px 16px 32px 26px;
+  padding: 36px 90px 36px 132px;
+  background: linear-gradient(91.09deg, #5F24A8 39.53%, #05D2FF 107.7%);
+  border-radius: 27px;
+  position: relative;
+}
+@media (max-width: 1600px) {
+  .urgent-repair__item {
+    padding: 30px 40px 30px 70px;
+    margin: 16px 16px 23px 26px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .urgent-repair__item {
+    padding: 25px 40px 25px 60px;
+    margin: 16px 16px 23px 26px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 1000px) {
+  .urgent-repair__item {
+    max-width: 310px;
+    padding: 13px 50px 13px 60px;
+    margin: 16px 16px 23px 26px;
+  }
+}
+@media (max-width: 800px) {
+  .urgent-repair__item {
+    font-size: 16px;
+    max-width: 306px;
+    padding: 6px 82px 5px 45px;
+    margin: 18px 16px 0px 26px;
+  }
+}
+@media (max-width: 574px) {
+  .urgent-repair__item {
+    margin: 0px 0px 18px 26px;
+  }
+}
+@media (max-width: 340px) {
+  .urgent-repair__item {
+    max-width: 288px;
+    padding: 6px 60px 5px 45px;
+  }
+}
+.urgent-repair__item-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -35px;
+  background: white;
+  padding: 15px;
+  border-radius: 50%;
+  border: 2px solid #5F24A8;
+  width: 120px;
+  height: 120px;
+}
+@media (max-width: 1600px) {
+  .urgent-repair__item-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 1200px) {
+  .urgent-repair__item-image {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (max-width: 1000px) {
+  .urgent-repair__item-image {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media (max-width: 800px) {
+  .urgent-repair__item-image {
+    width: 61px;
+    height: 61px;
+    left: -20px;
+  }
+}
+.urgent-repair__image {
+   position: absolute;
+   top: 60%;
+   transform: translateY(-50%);
+   right: -27px;
+   z-index: 0;
+}
+@media (max-width: 1700px) {
+  .urgent-repair__image {
+    right: -70px;
+  }
+}
+@media (max-width: 1600px) {
+  .urgent-repair__image {
+    right: -132px;
+    width: 70%;
+  }
+}
+@media (max-width: 1400px) {
+  .urgent-repair__image {
+    right: -50px;
+    width: 60%;
+  }
+}
+@media (max-width: 1000px) {
+  .urgent-repair__image {
+    right: -47px;
+    width: 60%;
+    top: 64%;
+  }
+}
+@media (max-width: 768px) {
+  .urgent-repair__image {
+    right: inherit;
+    left: 45%;
+    top: 64%;
+  }
+}
+@media (max-width:667px) {
+  .urgent-repair__image {
+    right: inherit;
+    left: 41%;
+    top: 64%;
+  }
+}
+@media (max-width: 574px) {
+  .urgent-repair__image {
+    position: static;
+    transform: translateY(0);
+    width: 100%;
+    margin-right: -50px;
+  }
+}
+@media (max-width: 320px) {
+  .urgent-repair__image {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .urgent-repair__img {
+    width: 445px;
+    height: 256px;
+  }
+}
+@media (max-width: 574px) {
+  .urgent-repair__img {
+    max-width: 445px;
+    width: 100%;
+    max-height: 256px;
+    height: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .urgent-repair__img {
+    width: 280px;
+    height: 161px;
+  }
+}
+
