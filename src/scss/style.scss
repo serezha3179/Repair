@@ -875,10 +875,22 @@ position: relative;
   padding: 25px 0px;
   overflow: hidden;
   position: relative;
+  background: url('../img/urgent-repair/urgent_repair_bg.png') no-repeat 95% 19%;
+}
+@media (max-width: 1600px) {
+  .urgent-repair {
+    background-position: 95% 10%;
+  }
+}
+@media (max-width: 1200px) {
+  .urgent-repair {
+    background-size: 220px;
+    background-position: 95% 17%;
+  }
 }
 @media (max-width: 574px) {
   .urgent-repair {
-    
+    background: none;
     overflow: hidden;
     position: inherit;
   }
