@@ -1127,6 +1127,8 @@ body {
 //////////////////////////////////////////// call-master //////////////////////////////////////
 .call-master {
   padding: 10px 0px;
+  position: relative;
+  z-index: 2;
   background:  url('../img/call-master/call-master_bg1.png') no-repeat 100% 60%,
                url('../img/call-master/call-master_bg2.png') no-repeat 2% 90%,
                url('../img/call-master/call-master_bg3.png') no-repeat center center / cover;
@@ -1447,5 +1449,181 @@ body {
     font-weight: 500;
     line-height: 1.172;
     margin-bottom: 26px;
+  }
+}
+/////////////////////////////////////// why-we ///////////////////////////////////
+.why-we {
+  background: url('../img/why-we/why-we_bg.png') no-repeat 0% -10% / cover;
+  padding: 148px 0px 100px;
+  margin-top: -69px;
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 1600px) {
+  .why-we {
+    background: url('../img/why-we/why-we_bg.png') no-repeat 50% -10% / cover;
+  }
+}
+@media (max-width: 1200px) {
+  .why-we {
+    background: url('../img/why-we/why-we_bg.png') no-repeat 70% -10% / cover;
+  }
+}
+@media (max-width: 768px) {
+  .why-we {
+    padding: 148px 0px 43px;
+    background: url('../img/why-we/why-we_bg.png') no-repeat 70% -10% / cover;
+    margin-top: -78px;
+  }
+} 
+@media (max-width: 574px) {
+  .why-we {
+    padding: 148px 0px 23px;
+    background: url('../img/why-we/why-we_bg.png') no-repeat 60% -10% / cover;
+    margin-top: -139px;
+  }
+} 
+@media (max-width: 320px) {
+  .why-we {
+    padding: 148px 0px 13px;
+  }
+} 
+.why-we-quality__item {
+  max-width: 396px;
+  background: white;
+  border-radius: 20px;
+  padding: 32px 54px;
+  margin: 0 auto;
+  margin-bottom: 43px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.181;
+  text-align: center;
+  color: #000000;
+}
+@media (max-width: 574px) {
+  .why-we-quality__item {
+    border-radius: 50px;
+    font-size: 15px;
+    line-height: 1.2;
+    padding: 12px 20px;
+    max-width: 291px;
+  }
+} 
+.why-we__title {
+  text-transform: uppercase;
+  margin-bottom: 65px;
+  border-bottom: 2px solid black;
+  max-width: 223px;
+}
+@media (max-width: 574px) {
+  .why-we__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    max-width: 143px;
+    margin: 0 auto 22px;
+  }
+}
+.why-we__items {
+   margin-bottom: 59px;
+   max-width: 590px;
+}
+@media (max-width: 574px) {
+  .why-we__items {
+    margin-bottom: 39px;
+  }
+}
+.why-we__item {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.181;
+  margin-bottom: 21px;
+  
+}
+@media (max-width: 574px) {
+  .why-we__item {
+    flex-direction: column;
+    font-size: 15px;
+    line-height: 1.172;
+    text-align: center;
+  }
+}
+.why-we__item-image {
+  margin-right: 17px;
+  max-width: 35px;
+  width: 100%;
+}
+@media (max-width: 574px) {
+  .why-we__item-image {
+    margin-bottom: 17px;
+  }
+}
+.why-we__text {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.178;
+  max-width: 608px;
+  margin-bottom: 45px;
+}
+@media (max-width: 574px) {
+  .why-we__text {
+    font-size: 15px;
+    line-height: 1.172;
+    text-align: center;
+  }
+}
+.why-we__text-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 608px;
+  height: 110px;
+  padding: 39px 43px 39px 0px;
+  background: linear-gradient(90deg, #5F24A8 48.79%, rgba(3, 191, 250, 0.84) 84.38%);
+  border-radius: 55.5px;
+  margin-bottom: 21px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.178;
+  color: #FFFFFF;
+  text-shadow: 2px 6px 15px rgba(255, 255, 255, 0.5);
+}
+@media (max-width: 667px) {
+  .why-we__text-item {
+    font-size: 22px;
+    max-width: 515px;
+  }
+}
+@media (max-width: 574px) {
+  .why-we__text-item {
+    font-size: 15px;
+    height: 66px;
+    padding: 13px 41px 13px 0px;
+    max-width: 375px;
+    margin: 0 auto 21px;
+}
+  }
+.why-we__text-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 110px;
+  width: 100%;
+  height: 110px;
+  border-radius: 50%;
+  background: white;
+  border: 3px solid #5F24A8;
+  margin-right: 21px;
+}
+@media (max-width: 574px) {
+  .why-we__text-image {
+    max-width: 66px;
+    width: 100%;
+    height: 66px;
+    padding: 10px;
   }
 }
