@@ -1,5 +1,6 @@
 @import "reset.scss";
 @import "header.scss";
+@import "slider.scss";
 
 body {
   font-family: "Roboto", sans-serif;
@@ -1412,10 +1413,10 @@ body {
   font-weight: 500;
   line-height: 1.181;
   color: #a5a5a5;
-  // text-transform: uppercase;
   padding: 17px 45px;
   border-radius: 10px;
   margin: 0 auto;
+  outline: none;
 }
 @media (max-width: 574px) {
   .item-form__input {
@@ -1625,5 +1626,70 @@ body {
     width: 100%;
     height: 66px;
     padding: 10px;
+  }
+}
+////////////////////////////////////////// reviews ///////////////////////////////////////////
+.reviews {
+  padding: 100px 0px 59px;
+  position: relative;
+  overflow: hidden;
+  background: url('../img/reviews/reviews_bg.png')no-repeat 10% 65%;
+}
+@media (max-width: 1300px) {
+  .reviews {
+    background-position: -10% 65%;
+  }
+}
+@media (max-width: 768px) {
+  .reviews {
+     background-position: -100px 215px;
+     padding: 65px 0px 59px;
+  }
+}
+@media (max-width: 575px) {
+  .reviews {
+    padding: 50px 0px 49px;
+    background-position: -100px 180px;
+  }
+}
+@media (max-width: 480px) {
+  .reviews {
+    padding: 37px 0px 41px;
+    background-position: -100px 98px;
+  }
+}
+.reviews__title {
+  margin-bottom: 22px;
+}
+@media (max-width: 480px) {
+  .reviews__title {
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 13px;
+  }
+}
+.reviews__text {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.16;
+  max-width: 780px;
+  margin-bottom: 82px;
+}
+@media (max-width: 768px) {
+  .reviews__text {
+    margin-bottom: 52px;
+  }
+}
+@media (max-width: 575px) {
+  .reviews__text {
+    font-size: 22px;
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 480px) {
+  .reviews__text {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
   }
 }
