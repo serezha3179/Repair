@@ -1693,3 +1693,54 @@ body {
     margin-bottom: 0px;
   }
 }
+///////////////////////////////////////////// discount ///////////////////////////////////
+.discount {
+  padding: 85px 0px 50px;
+  background: linear-gradient(180deg, #5F24A8 39.06%, rgba(0, 118, 185, 0.9) 92.71%),
+              url(../img/discount/discount_bg.png)no-repeat center center;
+}
+@media(max-width: 575px) {
+  .discount {
+    padding: 41px 0px;
+  }
+}
+.discount__title {
+  max-width: 405px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  padding: 22px 36px;
+  text-align: center;
+  margin-bottom: 55px;
+}
+@media(max-width: 574px) {
+  .discount__title {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 12px 56px;
+    margin-bottom: 22px;
+    max-width: 292px;
+  }
+}
+.discount__text {
+  font-size: 22px;
+  line-height: 1.181;
+  text-align: center;
+  color: white;
+  margin-bottom: 67px;
+}
+@media(max-width: 574px) {
+  .discount__text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.2;
+    max-width: 184px;
+    margin: 0 auto 23px;
+  }
+}
+.discount__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
