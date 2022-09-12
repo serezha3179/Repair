@@ -113,12 +113,13 @@
   display: flex;
   align-self: flex-start;
 }
-.slider-socials__image {
+.slider-socials__link {
+  display: block;
   width: 45px;
   height: 45px;
 }
 @media (max-width: 574px) {
-  .slider-socials__image {
+  .slider-socials__link {
     width: 34px;
     height: 34px;
   }
