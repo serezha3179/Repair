@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html',{"title":"Услуги и цены"})
+  <body>
+    <!-- @@include('html/header.html') -->
+    @@include('html/header.html', {"mainActive": "", "pricesActive": "active",
+    "main": ""})
+    <section class="our-services">
+      <div class="container">
+        <div class="breadcrumbs">
+          <a href="index.html" class="breadcrumbs__link">Главная</a>
+          <span>Наши услуги и цены</span>
+        </div>
+        <div class="our-services__title title">Наши услуги и цены</div>
+        <div class="our-services__text">
+          Если ваша стиральная машина вышла из строя, сервисный центр
+          «Moscowqual» оперативно устранит неисправность. Мастерская оказывает
+          услуги во всех районах Москвы и ближнего Подмосковья. Ремонт
+          осуществляется на дому специалистами со стажем не менее 5 лет. Мастер
+          отремонтирует вашу машинку в течение 24-х часов с момента обращения
+          или в любой другой день, который удобен для вас. После ремонта вам
+          будет выдана квитанция с гарантийными обязательствами сроком до 2 лет.
+        </div>
+        <div class="our-services-items services-items">
+          <div class="services-items__item">
+            <div class="services-items__item-image">
+              <img
+                src="@img/services/image1.png"
+                alt="clock"
+                class="services-items__item-img"
+              />
+            </div>
+            <div class="services__title">Выезд мастера в течение 60 мин.</div>
+          </div>
+          <div class="services-items__item">
+            <div class="services-items__item-image">
+              <img
+                src="@img/services/image2.png"
+                alt="hand"
+                class="services-items__item-img"
+              />
+            </div>
+            <div class="services__title">Бесплатная экспресс- диагностика</div>
+          </div>
+          <div class="services-items__item">
+            <div class="services-items__item-image">
+              <img
+                src="@img/services/image3.png"
+                alt="cool"
+                class="services-items__item-img"
+              />
+            </div>
+            <div class="services__title">
+              Ремонт оригинальными комплектующими
+            </div>
+          </div>
+          <div class="services-items__item">
+            <div class="services-items__item-image">
+              <img
+                src="@img/services/image4.png"
+                alt="guarantee"
+                class="services-items__item-img"
+              />
+            </div>
+            <div class="services__title">
+              Гарантия каждому владельцу до 2-х лет
+            </div>
+          </div>
+        </div>
+        <div class="our-services__button-wrapper">
+          <a href="/" class="our-services__button button">Заказать ремонт</a>
+        </div>
+        
+        <div class="our-services__title title">Прайс-лист на услуги</div>
+        <div class="our-services__text">
+            <p>Точная стоимость ремонта стиральной машины зависит от ее модели и вида неисправности. Специалисту необходимо выполнить диагностику, прежде чем рассчитать цену. Вот расценки на наши услуги.</p>
+            <p>Цены в таблице только за ремонтные работы, запчасти и комплектующие оплачиваются дополнительно.</p>
+            <p>Выезд мастера и диагностика — БЕСПЛАТНО *</p>
+            <p>* В случае отказа от ремонта или его нецелесообразности, требуется оплатить 400 рублей за выезд специалиста и диагностику. За ложный вызов взимается оплата в размере 1000 руб.</p>
+        </div>
+        <div class="our-services__table-wrapper">
+        <table class="our-services__table">
+            <tr>
+            <th>Малый ремонт</th>
+            <th>Стоимость</th>
+            <th>Время ремонта</th>
+            <th>Гарантия</th>
+          </tr>
+          <tr>
+            <td>Диагностика неисправности</td>
+            <td>БЕСПЛАТНО**</td>
+            <td>30-45 мин.</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <td>Выезд мастера</td>
+            <td>БЕСПЛАТНО**</td>
+            <td>60 мин.</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <td>Замена кнопки</td>
+            <td>От 1000 р.</td>
+            <td>20-30 мин.</td>
+            <td>6 месяцев</td>
+          </tr>
+          <tr>
+            <td>Замена ручки люка</td>
+            <td>От 1300 р.</td>
+            <td>30-50 мин.</td>
+            <td>6 месяцев</td>
+          </tr>
+          <tr>
+            <td>Замена петли дверцы</td>
+            <td>От 1300 р.</td>
+            <td>20-40 мин.</td>
+            <td>6 месяцев</td>
+          </tr>
+          <tr>
+            <td>Замена стекла люка</td>
+            <td>От 1200 р.</td>
+            <td>20-30 мин.</td>
+            <td>6 месяцев</td>
+          </tr>
+          <tr>
+            <td>Замена люка</td>
+            <td>От 1200 р.</td>
+            <td>30-50 мин.</td>
+            <td>12 месяцев</td>
+          </tr>
+          <tr>
+            <td>Открытие люка без ремонта</td>
+            <td>От 1000 р.</td>
+            <td>20-40 мин.</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <td>Замена сетевого фильтра 
+              (ФПС, пусковой конденсатор)</td>
+            <td>От 500 р.</td>
+            <td>20-30 мин.</td>
+            <td>6-12 месяцев</td>
+          </tr>
+          <tr>
+            <td>Замена сливного шланга</td>
+            <td>От 1400 р.</td>
+            <td>30-50 мин.</td>
+            <td>12-24 месяцев</td>
+          </tr>
+          <tr>
+            <td>Замена заливного шланга</td>
+            <td>От 1200 р.</td>
+            <td>20-40 мин.</td>
+            <td>12 месяцев</td>
+          </tr>
+          <tr>
+            <td>Замена сливного фильтра</td>
+            <td>От 900 р.</td>
+            <td>20-30 мин.</td>
+            <td>12 месяцев</td>
+          </tr>
+          <tr>
+            <td>Замена дозатора моющих средств</td>
+            <td>От 1300 р.</td>
+            <td>30-50 мин.</td>
+            <td>24 месяца</td>
+          </tr>
+          <tr>
+            <td>Чистка сливного фильтра</td>
+            <td>От 900 р.</td>
+            <td>20-40 мин.</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <td>Чистка заливного фильтра</td>
+            <td>От 1000 р.</td>
+            <td>20-30 мин.</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <td>Замена приводного ремня</td>
+            <td>От 900 р.</td>
+            <td>20-40 мин.</td>
+            <td>9 месяцев</td>
+          </tr>
+          <tr>
+            <td>Снятие транспортировочных болтов</td>
+            <td>От 1100 р.</td>
+            <td>20-30 мин.</td>
+            <td>---</td>
+          </tr>
+        </table>
+      </div>
+      <div class="our-services__table-wrapper">
+        <table class="our-services__table">
+            <tr>
+            <th>Средний ремонт</th>
+            <th>Стоимость</th>
+            <th>Время ремонта</th>
+            <th>Гарантия</th>
+          </tr>
+          <tr>
+            <td>Замена ТЭНа</td>
+            <td>БЕСПЛАТНО**</td>
+            <td>30-45 мин.</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <td>Замена сливного насоса</td>
+            <td>БЕСПЛАТНО**</td>
+            <td>60 мин.</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <td>Замена манжеты люка</td>
+            <td>От 1000 р.</td>
+            <td>20-30 мин.</td>
+            <td>6 месяцев</td>
+          </tr>
+          <tr>
+            <td>Поиск и устранение засора в 
+              сливном тракте</td>
+            <td>От 1300 р.</td>
+            <td>30-50 мин.</td>
+            <td>6 месяцев</td>
+          </tr>
+          <tr>
+            <td>Замена УБЛ (блокировки люка)</td>
+            <td>От 1300 р.</td>
+            <td>20-40 мин.</td>
+            <td>6 месяцев</td>
+          </tr>
+          <tr>
+            <td>Замена щёток двигателя</td>
+            <td>От 1200 р.</td>
+            <td>20-30 мин.</td>
+            <td>6 месяцев</td>
+          </tr>
+          <tr>
+            <td>Ремонт или замена мотора</td>
+            <td>От 1200 р.</td>
+            <td>30-50 мин.</td>
+            <td>12 месяцев</td>
+          </tr>
+          <tr>
+            <td>Замена амортизаторов</td>
+            <td>От 1000 р.</td>
+            <td>20-40 мин.</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <td>Замена пружин</td>
+            <td>От 500 р.</td>
+            <td>20-30 мин.</td>
+            <td>6-12 месяцев</td>
+          </tr>
+          <tr>
+            <td>Замена прессостата (датчика уровня)</td>
+            <td>От 1400 р.</td>
+            <td>30-50 мин.</td>
+            <td>12-24 месяцев</td>
+          </tr>
+          <tr>
+            <td>Замена заливного клапана (КЭНа)</td>
+            <td>От 1200 р.</td>
+            <td>20-40 мин.</td>
+            <td>12 месяцев</td>
+          </tr>
+          <tr>
+            <td>Вынуть посторонний предмет</td>
+            <td>От 900 р.</td>
+            <td>20-30 мин.</td>
+            <td>12 месяцев</td>
+          </tr>
+          <tr>
+            <td>Замена блока управления 
+              или индикации
+              </td>
+            <td>От 1300 р.</td>
+            <td>30-50 мин.</td>
+            <td>24 месяца</td>
+          </tr>
+          <tr>
+            <td>Ремонт платы управления 
+              или индикации</td>
+            <td>От 900 р.</td>
+            <td>20-40 мин.</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <td>Замена селектора программ</td>
+            <td>От 1000 р.</td>
+            <td>20-30 мин.</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <td>Ремонт или замена аквастопа</td>
+            <td>От 900 р.</td>
+            <td>20-40 мин.</td>
+            <td>9 месяцев</td>
+          </tr>
+          <tr>
+            <td>Ремонт или замена патрубка</td>
+            <td>От 1100 р.</td>
+            <td>20-30 мин.</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <td>Замена шкива барабана</td>
+            <td>От 1000 р.</td>
+            <td>20-30 мин.</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <td>Замена датчика температуры 
+              или термостата
+              </td>
+            <td>От 1100 р.</td>
+            <td>20-30 мин.</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <td>Замена ТЭНа сушки</td>
+            <td>От 1100 р.</td>
+            <td>20-30 мин.</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <td>Замена мотора вентилятора сушки</td>
+            <td>От 1000 р.</td>
+            <td>20-30 мин.</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <td>Замена жгута электропроводки</td>
+            <td>От 900 р.</td>
+            <td>20-40 мин.</td>
+            <td>9 месяцев</td>
+          </tr>
+          <tr>
+            <td>Замена циркуляционного насоса</td>
+            <td>От 1100 р.</td>
+            <td>20-30 мин.</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <td>Замена верхнего противовеса</td>
+            <td>От 1000 р.</td>
+            <td>20-30 мин.</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <td>Замена шторок барабана 
+              (для машин с вертикальной 
+              загрузкой)</td>
+            <td>От 900 р.</td>
+            <td>20-40 мин.</td>
+            <td>9 месяцев</td>
+          </tr>
+        </table>
+      </div>
+      <div class="our-services__table-wrapper">
+        <table class="our-services__table">
+            <tr>
+            <th>Крупный ремонт</th>
+            <th>Стоимость</th>
+            <th>Время ремонта</th>
+            <th>Гарантия</th>
+          </tr>
+          <tr>
+            <td>Замена подшипника</td>
+            <td>БЕСПЛАТНО**</td>
+            <td>30-45 мин.</td>
+            <td>&mdash;</td>
+          </tr>
+          <tr>
+            <td>Замена крестовины</td>
+            <td>БЕСПЛАТНО**</td>
+            <td>60 мин.</td>
+            <td>---</td>
+          </tr>
+          <tr>
+            <td>Замена бака или барабана</td>
+            <td>От 1000 р.</td>
+            <td>20-30 мин.</td>
+            <td>6 месяцев</td>
+          </tr>
+          <tr>
+            <td>Замена опоры бака</td>
+            <td>От 1300 р.</td>
+            <td>30-50 мин.</td>
+            <td>6 месяцев</td>
+          </tr>
+          <tr>
+            <td>Замена нижнего противовеса</td>
+            <td>От 1000 р.</td>
+            <td>20-30 мин.</td>
+            <td>6 месяцев</td>
+          </tr>
+          <tr>
+            <td>Замена шторок барабана
+              с разбором бака 
+              (для машин с 
+              вертикальной загрузкой)
+              </td>
+            <td>От 1300 р.</td>
+            <td>30-50 мин.</td>
+            <td>6 месяцев</td>
+          </tr>
+        </table>
+      </div>
+      </div>
+    </section>
+    @@include('html/call-master.html')
+    @@include('html/why-we.html')
+    @@include('html/reviews.html')
+    @@include('html/discount.html')
+    @@include('html/footer.html')
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/app.min.js"></script>
+  </body>
+</html>

@@ -76,7 +76,7 @@
 }
 @media (max-width: 767px) {
     .header__logo-wrapper {
-        margin-bottom: 10px;
+        margin-bottom: 9px;
     }
 }
 @media (max-width: 480px) {
@@ -184,12 +184,28 @@
     }
 }
 @media (max-width: 767px) {
-    .header__items-wrapper {
+    .header__items-wrapper.main {
         flex-direction: row;
         z-index: 1;
         width: 100%;
         background: white;
+        // background: linear-gradient(270deg, #383B86 35.63%, #01669C 83.92%);
         border-radius: 0px 0px 20px 20px;
+    }
+}
+@media (max-width: 767px) {
+    .header__items-wrapper {
+        flex-direction: row;
+        z-index: 1;
+        width: 100%;
+        // background: white;
+        background: linear-gradient(270deg, #383B86 35.63%, #01669C 83.92%);
+        border-radius: 0px 0px 20px 20px;
+    }
+}
+@media (max-width: 767px) {
+    .header.active .header__items-wrapper {
+    background: white;
     }
 }
 .header__schedule {
@@ -204,6 +220,11 @@
 }
 @media (max-width: 767px) {
     .header__schedule {
+        color: white;
+    }
+}
+@media (max-width: 767px) {
+    .header__schedule.main, .header.active .header__schedule {
         color:#00669C;
     }
 }
@@ -285,7 +306,7 @@
     margin-right: 18px;
 }
 @media (max-width: 767px) {
-    .header__phone {
+    .header__phone.main, .header.active .header__phone {
         background: linear-gradient(135deg, #5F24A8 20%, #01669C 70%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -309,7 +330,7 @@
     background: url('../img/header/Phone.svg') no-repeat 0 0 / cover;
 }
 @media (max-width: 767px) {
-    .header__phone-image {
+    .header__phone-image.main, .header.active .header__phone-image {
         background: url('../img/header/phone_blue.svg') no-repeat 0 0 / cover;
     }
 }
@@ -338,7 +359,7 @@
     }
 }
 @media (max-width: 767px) {
-    .header__button-link {
+    .header__button-link.main, .header.active .header__button-link {
         background: linear-gradient(135deg, #5F24A8 20%, #01669C 70%);
         // background-clip: text;
         -webkit-background-clip: text;
@@ -367,18 +388,24 @@
         top: 107px;
     }
 }
-.header__nav {
+.header__nav.main, .header__nav {
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 1170px;
     margin: 0 auto;
     padding: 31px 0px;
-    background: white;
+    // background: white;
     border-radius: 0px 0px 20px 20px;
 }
+.header__nav.main {
+    background: white;
+}
+.header__nav {
+    background: linear-gradient(270deg, #383B86 35.63%, #01669C 83.92%);
+}
 @media (max-width: 767px) {
-    .header__nav {
+    .header__nav.main, .header__nav {
         display: none;
     }
 }
@@ -388,7 +415,7 @@
         flex-direction: column;
         justify-content: flex-start;
         position: fixed;
-        top: 116px;
+        top: 114px;
         left: 50%;
         transform: translate(-50%);
         width: 100%;
@@ -403,7 +430,7 @@
 }
 @media (max-width: 480px) {
     .header__nav.active {
-        top: 108px;
+        top: 107px;
         background: url('../img/header/background_mobile_right.png') no-repeat right 80% / 100px,
                  #443682 url('../img/header/background_mobile_left.png') no-repeat 40% 15%;
                     // white url('../img/header/фон 1.svg') no-repeat 0% 0% / cover;
@@ -521,17 +548,44 @@
     display: block;
     color: #8B8B8B;
 }
-.header__nav-link {
+.header__nav-link, .main.header__nav-link {
     font-size: 16px;
     font-weight: 500;
     font-weight: 400;
     line-height: 1.171;
-    color: #000;
+    // color: #000;
 }
+.main .header__nav-link {
+    color: black;
+}
+@media(max-width: 767px) {
+    .main .header__nav-link {
+        color: white;
+    }
+} 
+.header__nav-link {
+    color: white;
+}
+.main .header__nav-link.active {
+    font-weight: 700;
+    // text-decoration: underline;
+    border-bottom: 2px solid black;
+}
+@media(max-width: 767px) {
+    .main .header__nav-link.active {
+        border-bottom: 2px solid white;
+    }
+} 
 .header__nav-link.active {
     font-weight: 700;
-    text-decoration: underline;
-}
+    // text-decoration: underline;
+    border-bottom: 2px solid white;
+} 
+@media(max-width: 768px) {
+    .header__nav-link.active {
+        // border-bottom: none;
+    }
+} 
 @media(max-width: 880px) {
     .header__nav-link {
         font-size: 15px;
