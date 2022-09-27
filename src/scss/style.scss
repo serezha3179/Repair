@@ -2328,3 +2328,109 @@ body {
   width: 0px;
   height: 0px;
 }
+///////////////////////////////////////////// index2 ///////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////
+.wrapper {
+    background: url('../img/guarantee/guarantee_bg1.png')no-repeat 1% 5%,
+                url('../img/guarantee/background1.png')no-repeat 0% 43%,
+                url('../img/guarantee/background2.png')no-repeat 100% 62%,
+}
+@media(max-width: 767px) {
+  .wrapper {
+    background: url('../img/guarantee/guarantee_bg1.png')no-repeat 1% 5%;
+  }
+}
+.guarantee {
+  padding: 245px 0px 50px;
+}
+@media(max-width: 1490px) {
+  .guarantee {
+    padding: 270px 0px 50px;
+  }
+}
+@media(max-width: 767px) {
+  .guarantee {
+    padding: 200px 0px 50px;
+  }
+}
+@media(max-width: 480px) {
+  .guarantee {
+    padding: 190px 0px 50px;
+  }
+}
+.guarantee__title {
+  margin-bottom: 23px;
+}
+@media(max-width: 768px) {
+  .guarantee__title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.19;
+  }
+}
+@media(max-width: 574px) {
+  .guarantee__title {
+    font-size: 16px;
+  }
+}
+.guarantee__text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: black;
+  max-width: 740px;
+  margin-bottom: 53px;
+}
+@media(max-width: 574px) {
+  .guarantee__text {
+    font-size: 13px;
+  }
+}
+////////////////////////////////////////// certificates //////////////////////////////////////////
+.certificates {
+    padding: 100px 0px 150px;
+}
+@media(max-width: 1000px) {
+  .certificates {
+  padding: 100px 0px 100px;
+  }
+}
+@media(max-width: 768px) {
+  .certificates {
+  padding: 75px 0px 80px;
+  }
+}
+@media(max-width: 574px) {
+  .certificates {
+  padding: 75px 0px 50px;
+  }
+}
+.certificates__title {
+    margin-bottom: 47px;
+}
+.certificates__items {
+   display: flex;
+}
+@media(max-width: 767px) {
+  .certificates__items {
+     flex-direction: column;
+     align-items: center;
+  }
+}
+.certificates__item {
+   margin-right: 43px;
+}
+@media(max-width: 767px) {
+  .certificates__item {
+    margin-right: 0px;
+    margin-bottom: 43px;
+ }
+}
+.certificates__item:last-child {
+  margin-right: 0px;
+}
+@media(max-width: 767px) {
+  .certificates__item:last-child {
+    margin-bottom: 0px;
+ }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  @@include('html/head.html',{"title":"Гарантия"})
+</head>
+<body>
+    <div class="wrapper">
+    @@include('html/header.html',{"mainActive":"","pricesActive": "","guaranteeActive":"active"})
+    <section class="guarantee">
+        <div class="container">
+            <div class="breadcrumbs">
+                <a href="index.html" class="breadcrumbs__link">Главная</a>
+                <span>Гарантия</span>
+              </div>
+              <div class="guarantee__title title">
+                Гарантия
+              </div>
+              <div class="guarantee__text">
+                После совершение ремонта вы получаете бланк строгой отчетности (БСО), в которой мастер укажет гарантию на ремонт, рекомендации и скидку на дальнейшее сотрудничество.
+Преимущество нашего сервисного центра — это мастера, которые  точно определяют поломку и в кратчайшие сроки починят вашу сломанную технику.
+Если возникнет аналогичная поломка, ремонт будет осуществляться БЕСПЛАТНО.
+Срок гарантии будет определяться мастером, так как зависит от комплектующих и характера поломки.
+              </div>
+        </div>
+    </section>
+    @@include('html/why-we.html')
+    <section class="certificates">
+        <div class="container">
+            <div class="certificates__title title">
+                Наши сертификаты
+            </div>
+            <div class="certificates__items">
+                <div class="certificates__item">
+                    <img src="@img/sertificates/image1.jpg" alt="sertificate" class="certificates__image">
+                </div>
+                <div class="certificates__item">
+                    <img src="@img/sertificates/image2.jpg" alt="sertificate" class="certificates__image">
+                </div>
+            </div>
+        </div>
+    </section>
+    @@include('html/discount.html')
+    @@include('html/footer.html')
+</div>
+    <script src="js/app.min.js"></script>
+
+</body>
+</html>
