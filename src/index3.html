@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    @@include('html/head.html',{"title":"Юр.лица"})
+</html>
+<body>
+    <div class="wrapper-legal-entities">
+        @@include('html/header.html',{"mainActive":"","pricesActive": "","guaranteeActive":"","legalEntitiesActive":"active"})
+        <section class="legal-entities">
+            <div class="container">
+                <div class="breadcrumbs">
+                    <a href="index.html" class="breadcrumbs__link">Главная</a>
+                    <span>Для юридических лиц</span>
+                  </div>
+                  <div class="legal-entities__title title">
+                    Для Юридических лиц
+                  </div>
+                  <div class="legal-entities__subtitle title">
+                    Ремонт техники по безналичному расчету
+                  </div>
+                  <ul class="legal-entities__items">
+                  <li class="legal-entities__item">
+                    Вы оставляете заявку на требуемую услугу по телефону, либо Заполните бриф.
+                  </li>
+                    <li class="legal-entities__item">Наш специалист созванивается с Вами для уточнения всех деталей и назначает точное время приезда.
+                    </li>
+                        <li class="legal-entities__item">Мы выставим Вам счет по электронной почте на вызов мастера и диагностику.
+                        </li>
+                            <li class="legal-entities__item">После оплаты мастер приедет, определит неисправность и озвучит стоимость ремонта.
+                            </li>
+                                <li class="legal-entities__item">Если ремонт возможен и рентабелен, то Вы подписываете с мастером гарантийное письмо и оплатите счет после проведения всех работ и получения документов.
+                                </li>
+                                    <li class="legal-entities__item">После совершения ремонта вы получаете бланк строгой отчетности (БСО), в которой мастер укажет гарантию на ремонт, рекомендации и скидку на дальнейшее сотрудничество.
+                                </li>
+                            </ul>
+                                <div class="legal-entities__title title">
+                                    Вызов мастера
+                                  </div>
+                                  <form action="" class="legal-entities__form">
+                                    <input type="text" class="legal-entities__input" placeholder="Название компании, ИНН:">
+                                    <input type="text" class="legal-entities__input" placeholder="Ваш номер телефона:">
+                                    <input type="text" class="legal-entities__input" placeholder="E-mail, для отправки копии счёта:">
+                                    <input type="text" class="legal-entities__input" placeholder="Фактический адрес:">
+                                    <input type="text" class="legal-entities__input" placeholder="Вид техники:">
+                                    <input type="text" class="legal-entities__input" placeholder="Модель:">
+                                    <textarea name="" id="" class="legal-entities__textarea" cols="30" rows="10" placeholder="Что случилось?"></textarea>
+                                  </form>
+                                  <div class="legal-intities__text">
+                                    Нажав кнопку «Заказать ремонт», я даю согласие на обработку моих персональных данных.
+                                  </div>
+                                  <div class="legal-intities__button-wrapper">
+                                  <a href="/" class="legal-intities__button button">Заказать ремонт</a>
+                                </div>
+            </div>
+        </section>
+        @@include('html/why-we.html')
+        @@include('html/footer.html')
+    </div>
+    <script src="js/app.min.js"></script>
+</body>
