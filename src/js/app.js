@@ -1,6 +1,7 @@
 import * as flsFunctions from './modules/functions.js';
-import './burger.js';
 import './slider.js';
+import './burger.js';
+import './map.js';
 
 flsFunctions.testWebP(function (support) {
     
