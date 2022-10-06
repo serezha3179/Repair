@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    @@include('html/head.html',{"title":"Задать вопрос"})
+    <body>
+      @@include('html/header.html',{"questionAnswerActive":"active","main":""})
+      <section class="ask-question">
+        <div class="container">
+            <div class="breadcrumbs">
+                <a href="index.html" class="breadcrumbs__link">Главная</a>
+                <a href="index5.html" class="breadcrumbs__link">Вопрос-ответ</a>
+                <span>Задать вопрос</span>
+              </div>
+              <div class="ask-question__title title">
+                Задать вопрос
+              </div>
+              <form action="?" method="POST" class="ask-question__form">
+                <input type="text" class="ask-question__input" placeholder="Ваше имя">
+                <input type="text" class="ask-question__input" placeholder="Ваш E-mail">
+                <div class="ask-question__checkbox-wrapper">
+                <input type="checkbox" id="checkbox1" class="ask-question__input ask-question__checkbox">
+                <label for = "checkbox1" class="ask-question__label">Получить уведомление на Ваш E-mail с ответом на вопрос</label>
+                </div>
+                <input type="file" class="ask-question__input" placeholder="Добавить фото/видео">
+                <textarea name="" id="" cols="30" rows="10" class="ask-question__textarea" placeholder="В вопросе укажите марку и, по возможности, модель техники. Опишите симптомы поведения техники (например, стиральная машина не сливает).
+Чем больше информации вы сообщите мастеру, тем более полно он сможет ответить на ваш вопрос."></textarea>
+<!-- <div style="transform:scale(0.8); transform-origin:0;" class="g-recaptcha" data-sitekey="xxx"></div> -->
+              </form>
+                <div class="g-recaptcha" data-sitekey="0000000000000 "></div>
+                <br/>
+                <input type="submit" value="Задать вопрос" class="ask-question__button button" id="button">
+                <div class="ask-question__text">*Нажимая на кнопку, я даю согласие на обработку своих персональных данных</div>
+        </div>
+      </section>
+      @@include('html/footer.html')
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+      <script src="js/app.min.js"></script>
+    </body>
+</html>
