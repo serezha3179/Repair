@@ -2198,6 +2198,7 @@ body {
 }
 .breadcrumbs span {
   color: #989898;
+  align-self: flex-start;
 }
 .breadcrumbs__link {
   display: flex;
@@ -3640,19 +3641,27 @@ body {
 @media(max-width: 881px) {
     .error-codes .breadcrumbs {
      font-size: 13px;
-     width: 842px;
+    //  width: 842px;
+     width: 567px;
      display: flex;
      flex-wrap: wrap;
   }
 }
 @media(max-width: 574px) {
   .error-codes .breadcrumbs {
-   width: 491px;
+  //  width: 491px;
+   width: 365px;
   }
 }
 @media(max-width: 520px) {
   .error-codes .breadcrumbs {
-   width: 482px;
+    width: 365px;
+  //  width: 482px;
+  }
+}
+@media(max-width: 380px) {
+  .error-codes .breadcrumbs {
+ width: 280px;
   }
 }
 .error-codes .breadcrumbs span {
@@ -3720,6 +3729,174 @@ body {
 }
 @media(max-width: 574px) {
   .error-codes__link {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15;
+  }
+}
+///////////////////////////////////////// index11 /////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////
+.error-bosch {
+  padding: 245px 0px 50px;
+  background: url('../img/background_image/background_bg1.png')no-repeat 0% 45% / 298px,
+              url('../img/background_image/background_bg1.png')no-repeat 92% 60% / 173px,
+              url('../img/background_image/background_bg1.png')no-repeat 75% 98%;
+}
+@media(max-width: 1490px) {
+  .error-bosch {
+    padding: 270px 0px 50px;
+  }
+}
+@media(max-width: 992px) {
+  .error-bosch {
+    background: url('../img/ask-question/ask-question_bg1.png')no-repeat 2% 250px / 200px,
+                url('../img/background_image/background_bg1.png')no-repeat 92% 89% / 173px;
+  }
+}
+@media(max-width: 767px) {
+  .error-bosch {
+    padding: 200px 0px 30px;
+    background: url('../img/ask-question/ask-question_bg1.png')no-repeat 2% 175px / 200px,
+                url('../img/background_image/background_bg1.png')no-repeat 92% 89% / 173px;
+  }
+}
+@media(max-width: 480px) {
+  .error-bosch {
+    padding: 190px 0px 10px;
+  }
+}
+@media(max-width: 991px) {
+  .error-bosch .breadcrumbs {
+   font-size: 13px;
+   width: 556px;
+   display: flex;
+   flex-wrap: wrap;
+  }
+}
+@media(max-width: 574px) {
+  .error-bosch .breadcrumbs {
+      width: 359px;
+   }
+}
+@media(max-width: 520px) {
+  .error-bosch .breadcrumbs {
+//  width: 482px;
+    width: 359px;
+  }
+}
+@media(max-width: 380px) {
+  .error-bosch .breadcrumbs {
+ width: 291px;
+  }
+}
+.error-bosch .breadcrumbs span {
+align-self: flex-start;
+}
+@media(max-width: 991px) {
+  .error-bosch .breadcrumbs__link {
+  margin-bottom: 10px;
+  }
+}
+.error-bosch__title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.178;
+  margin-bottom: 7px;
+}
+@media(max-width: 768px) {
+  .error-bosch__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.19;
+  }
+}
+@media(max-width: 574px) {
+  .error-bosch__title {
+    text-align: center;
+  }
+}
+.error-bosch__subtitle {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.181;
+  margin-bottom: 7px;
+}
+@media(max-width: 768px) {
+  .error-bosch__subtitle {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.19;
+  }
+}
+@media(max-width: 574px) {
+  .error-bosch__subtitle {
+    text-align: center;
+    margin-bottom: 34px;
+  }
+}
+.error-bosch__text {
+  margin-bottom: 30px;
+}
+@media(max-width: 574px) {
+  .error-bosch__text {
+    text-align: center;
+  }
+}
+.error-bosch__items {
+  padding-left: 31px;
+  margin-bottom: 34px;
+}
+@media(max-width: 574px) {
+  .error-bosch__items {
+    padding-left: 0px;
+    margin-bottom: 34px;
+  }
+}
+.error-bosch__item {
+  position: relative;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.26;
+  margin-bottom: 15px;
+}
+@media(max-width: 574px) {
+  .error-bosch__item {
+    text-align: center;
+    margin-bottom: 34px;
+  }
+}
+.error-bosch__item::before {
+  display: block;
+  position: absolute;
+  content: '\2605';
+  top: 50%;
+  transform: translateY(-50%);
+  left: -30px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #00bb34;
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+}
+@media(max-width: 574px) {
+  .error-bosch__item::before {
+    top: -25px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+.error-bosch__link {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 2.26;
+  text-decoration-line: underline;
+  color: #000000;
+}
+@media(max-width: 574px) {
+  .error-bosch__link {
     font-size: 13px;
     font-weight: 400;
     line-height: 1.15;
