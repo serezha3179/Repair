@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    @@include('html/head.html',{"title":"Полезная информация"})
+<body>
+    @@include('html/header.html',{"informationActive":"active","main":""})
+    <section class="information">
+        <div class="container">
+            <div class="breadcrumbs">
+                <a href="index.html" class="breadcrumbs__link">Главная</a>
+                <span>Полезная информация</span>
+              </div>
+              <div class="information__title title">
+                Полезная информация
+              </div>
+              <div class="information-services-items services-items">
+                <a href="index12" class="services-items__item">
+                  <div class="services-items__item-image">
+                    <img
+                      src="@img/information/image1.png"
+                      alt="list"
+                      class="services-items__item-img"
+                    />
+                  </div>
+                  <div class="services__title">Стиральные машины
+                    История и современность </div>
+                  </a>
+                  <a href="index9" class="services-items__item">
+                  <div class="services-items__item-image">
+                    <img
+                      src="@img/information/image2.png"
+                      alt="hand"
+                      class="services-items__item-img"
+                    />
+                  </div>
+                  <div class="services__title">Коды ошибок
+                    стиральных машин</div>
+                  </a>
+                <a href="index13" class="services-items__item">
+                  <div class="services-items__item-image">
+                    <img
+                      src="@img/information/image3.png"
+                      alt="cool"
+                      class="services-items__item-img"
+                    />
+                  </div>
+                  <div class="services__title">
+                    Работы наших мастеров
+                  </div>
+                </a>
+              </div>
+        </div>
+    </section>
+    @@include('html/discount.html')
+    @@include('html/footer.html')
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+      <script src="js/app.min.js"></script>
+</body>
+</html>

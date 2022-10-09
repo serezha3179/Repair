@@ -338,7 +338,7 @@ body {
 @media (max-width: 497px) {
   .services {
     background: url("../img/services/services_bg1.png") no-repeat 100% 32%,
-      url("../img/services/services_bg2.png") no-repeat 0% 95%;
+                url("../img/services/services_bg2.png") no-repeat 0% 95%;
   }
 }
 @media (max-width: 320px) {
@@ -3429,5 +3429,71 @@ body {
 @media(max-width: 574px) {
   .question-answer__link-text {
     font-size: 15px;
+  }
+}
+//////////////////////////////////////////// information ////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+.information {
+  padding: 245px 0px 50px;
+  background: url('../img/background_image/background_bg1.png')no-repeat 0% 45% / 298px,
+              url('../img/background_image/background_bg1.png')no-repeat 92% 89% / 173px;
+}
+@media(max-width: 1490px) {
+  .information {
+    padding: 270px 0px 50px;
+  }
+}
+@media(max-width: 992px) {
+  .information {
+    background: url('../img/ask-question/ask-question_bg1.png')no-repeat 2% 250px / 200px,
+                url('../img/background_image/background_bg1.png')no-repeat 92% 89% / 173px;
+  }
+}
+@media(max-width: 767px) {
+  .information {
+    padding: 200px 0px 30px;
+    background: url('../img/ask-question/ask-question_bg1.png')no-repeat 2% 175px / 200px,
+                url('../img/background_image/background_bg1.png')no-repeat 92% 89% / 173px;
+  }
+}
+@media(max-width: 480px) {
+  .information {
+    padding: 190px 0px 10px;
+  }
+}
+.information__title {
+  margin-bottom: 37px;
+}
+@media(max-width: 768px) {
+  .information__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.19;
+    margin-bottom: 17px;
+  }
+}
+.information-services-items.services-items {
+  flex-wrap: nowrap;
+}
+@media(max-width: 992px) {
+  .information-services-items.services-items {
+    flex-direction: column;
+  }
+}
+.information-services-items .services-items__item {
+  min-width: 258px;
+}
+@media(max-width: 630px) {
+  .information-services-items .services-items__item {
+    min-width: 220px;
+    min-height: 220px;
+  }
+}
+.information-services-items .services-items__item:nth-child(1) .services__title {
+  max-width: 186px;
+}
+@media (max-width: 320px) {
+    .information-services-items .services-items__item:nth-child(1) .services-items__item-img {
+      max-width: 40px;
   }
 }
