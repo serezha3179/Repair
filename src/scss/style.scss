@@ -3497,3 +3497,115 @@ body {
       max-width: 40px;
   }
 }
+///////////////////////////////////////////// index9 //////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.mistakes {
+  padding: 245px 0px 50px;
+  background: url('../img/background_image/background_bg1.png')no-repeat 0% 45% / 298px,
+              url('../img/background_image/background_bg1.png')no-repeat 92% 60% / 173px,
+              url('../img/background_image/background_bg1.png')no-repeat 75% 120%;
+}
+@media(max-width: 1490px) {
+  .mistakes {
+    padding: 270px 0px 50px;
+  }
+}
+@media(max-width: 992px) {
+  .mistakes {
+    background: url('../img/ask-question/ask-question_bg1.png')no-repeat 2% 250px / 200px,
+                url('../img/background_image/background_bg1.png')no-repeat 92% 89% / 173px;
+  }
+}
+@media(max-width: 767px) {
+  .mistakes {
+    padding: 200px 0px 30px;
+    background: url('../img/ask-question/ask-question_bg1.png')no-repeat 2% 175px / 200px,
+                url('../img/background_image/background_bg1.png')no-repeat 92% 89% / 173px;
+  }
+}
+@media(max-width: 480px) {
+  .mistakes {
+    padding: 190px 0px 10px;
+  }
+}
+.container-mistakes {
+  max-width: 1289px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+@media(max-width: 574px) {
+    .mistakes .breadcrumbs {
+     font-size: 13px;
+     width: 100px;
+     display: flex;
+     flex-wrap: wrap;
+  }
+}
+@media(max-width: 574px) {
+  .mistakes .breadcrumbs__link {
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width: 574px) {
+    .mistakes .breadcrumbs {
+     font-size: 13px;
+     width: 260px;
+  }
+}
+.mistakes__title {
+  margin-bottom: 37px;
+}
+@media(max-width: 768px) {
+  .mistakes__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.19;
+    margin-bottom: 17px;
+  }
+}
+.mistakes__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.166;
+  color: #000000;
+  margin-bottom: 37px;
+}
+@media(max-width: 768px) {
+  .mistakes__text {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15;
+  }
+}
+.mistakes__items {
+  padding-left: 31px;
+}
+.mistakes__item {
+  position: relative;
+  margin-bottom: 15px;
+}
+.mistakes__item::before {
+  display: block;
+  position: absolute;
+  content: '\2605';
+  top: 50%;
+  transform: translateY(-50%);
+  left: -30px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #00bb34;
+  font-size: 15px;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+}
+.mistakes__link {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 2.26;
+  text-decoration-line: underline;
+  color: #000000;
+}
