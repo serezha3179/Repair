@@ -1,93 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-    @@include('html/head.html',{"title":"Вопрос Михаила"})
-    <body>
-        @@include('html/header.html',{"questionAnswerActive":"active","main":""})
-        <section class="dialog">
-            <div class="container">
-                <div class="breadcrumbs">
-                    <a href="index.html" class="breadcrumbs__link">Главная</a>
-                    <a href="index5.html" class="breadcrumbs__link">Вопрос-ответ</a>
-                    <span>Вопрос Михаила</span>
-                  </div>
-                  <h1 class="dialog__title title">
-                    Задать вопрос
-                  </h1>
-                  <h2 class="dialog__subtitle title">
-                    Михаил
-                  </h2>
-                  <div class="question-answer__items-inner">
-                    <div class="question-answer__items question-items">
-                      <h3 class="question-answer__items-title">Михаил<span class="question-answer__items-date">27.04.2021</span></h3>
-                      <div class="question-answer__items-text">
-                        Здравствуйте, в моем холодильнике Samsung Samsung SR-30 RMBSS с системой охлаждения ноу Фрост сломался термостат, называется SAMSUNG PFN-174S-05I, какой альтернативой его можно заменить, т.к. подобные уже не производится и не продаются?
-                      </div>
-                      <div class="question-answer__items-wrapper">
-                        <span>Оцени статью</span>
-                        <div class="question-answer__items-stars">
-                          <span class="rating-items" data-rate="1"></span>
-                          <span class="rating-items" data-rate="2"></span>
-                          <span class="rating-items active" data-rate="3"></span>
-                          <span class="rating-items active" data-rate="4"></span>
-                          <span class="rating-items active" data-rate="5"></span>
-                        </div>
-                        <span>(В среднем 4 на основе 10 голосов)</span>
-                      </div>
-                    </div>
-                    <div class="question-answer__items question-items">
-                      <h3 class="question-answer__items-title">Михаил<span class="question-answer__items-date">27.04.2021</span></h3>
-                      <div class="dialog question-answer__items-wrapper">
-                        <div class="question-answer__items-image">
-                          <img src="@img/dialog/dialog_image.jpg" alt="washing-machine" class="question-answer__ites-img">
-                        </div>
-                      <div class="question-answer__items-text">
-                          Здравствуйте, в моем холодильнике Samsung Samsung SR-30 RMBSS с системой охлаждения ноу Фрост сломался термостат, называется SAMSUNG PFN-174S-05I, какой альтернативой его можно заменить, т.к. подобные уже не производится и не продаются?
-                      </div>
-                    </div>
-                      <div class="question-answer__items-wrapper">
-                          <span>Оцени статью</span>
-                          <div class="question-answer__items-stars">
-                              <span class="rating-items" data-rate="1"></span>
-                              <span class="rating-items" data-rate="2"></span>
-                              <span class="rating-items active" data-rate="3"></span>
-                              <span class="rating-items active" data-rate="4"></span>
-                              <span class="rating-items active" data-rate="5"></span>
-                          </div>
-                          <span>(В среднем 4 на основе 10 голосов)</span>
-                      </div>
-                    </div>
-                    <div class="question-answer__items active answer-items">
-                      <h3 class="question-answer__items-title">Ответ мастера<span class="question-answer__items-date">27.04.2021</span></h3>
-                      <div class="question-answer__items-text">
-                          Михаил, доброе утро!<br>
-                          Samsung SR-30 RMB - двухкамерный и отдельно стоящий холодильник с механическим типом управления, одним мотором и системой полный Ноу Фрост. Термостат вашего холодильника имеет артикул - DA47-10159F (SAMSUNG PFN-174S-05I). Термостаты эти есть в продаже магазинов запчастей. Подойдет любой с рабочей температурой -16-22 градуса.
-                      </div>
-                      <div class="question-answer__items-wrapper">
-                          <span>Оцени статью</span>
-                          <div class="question-answer__items-stars">
-                              <span class="rating-items" data-rate="1"></span>
-                              <span class="rating-items" data-rate="2"></span>
-                              <span class="rating-items active" data-rate="3"></span>
-                              <span class="rating-items active" data-rate="4"></span>
-                              <span class="rating-items active" data-rate="5"></span>
-                          </div>
-                          <span>(В среднем 4 на основе 10 голосов)</span>
-                      </div>
-              </div>
-                    <div class="question-answer__button-wrapper">
-                      <a href="index7.html" class="question-answer__button button">Добавить комментарий</a>
-                      <a href="index6.html" class="question-answer__button button">Задать вопрос</a>
-                    </div>
-                    <div class="question-answer__link-wrapper">
-                      <a href="index5.html" class="question-answer__link"></a>
-                      <span class="question-answer__link-text">Вернуться ко всем вопросам</span>
-                    </div>
-                  </div>
+  @@include('html/head.html',{"title":"Вопрос Михаила"})
+  <body>
+    @@include('html/header.html',{"questionAnswerActive":"active","main":""})
+    <section class="dialog">
+      <div class="container">
+        <div class="breadcrumbs">
+          <a href="index.html" class="breadcrumbs__link">Главная</a>
+          <a href="index5.html" class="breadcrumbs__link">Вопрос-ответ</a>
+          <span>Вопрос Михаила</span>
+        </div>
+        <h1 class="dialog__title title">Задать вопрос</h1>
+        <h2 class="dialog__subtitle title">Михаил</h2>
+        <div class="card__items-inner">
+          <div class="card__items question-items">
+            <h3 class="card__items-title">
+              Михаил<span class="card__items-date">27.04.2021</span>
+            </h3>
+            <div class="card__items-text">
+              Здравствуйте, в моем холодильнике Samsung Samsung SR-30 RMBSS с
+              системой охлаждения ноу Фрост сломался термостат, называется
+              SAMSUNG PFN-174S-05I, какой альтернативой его можно заменить, т.к.
+              подобные уже не производится и не продаются?
             </div>
-        </section>
-        @@include('html/footer.html')
-      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-      <script src="js/app.min.js"></script>
-    </body>
+            <div class="stars__items-wrapper">
+              <span>Оцени статью</span>
+              <div class="stars__items-stars">
+                <span class="rating-items" data-rate="1"></span>
+                <span class="rating-items" data-rate="2"></span>
+                <span class="rating-items active" data-rate="3"></span>
+                <span class="rating-items active" data-rate="4"></span>
+                <span class="rating-items active" data-rate="5"></span>
+              </div>
+              <span>(В среднем 4 на основе 10 голосов)</span>
+            </div>
+          </div>
+          <div class="card__items question-items">
+            <h3 class="card__items-title">
+              Михаил<span class="card__items-date">27.04.2021</span>
+            </h3>
+            <div class="dialog stars__items-wrapper">
+              <div class="card__items-image">
+                <img
+                  src="@img/dialog/dialog_image.jpg"
+                  alt="washing-machine"
+                  class="card__items-img"
+                />
+              </div>
+              <div class="card__items-text">
+                Здравствуйте, в моем холодильнике Samsung Samsung SR-30 RMBSS с
+                системой охлаждения ноу Фрост сломался термостат, называется
+                SAMSUNG PFN-174S-05I, какой альтернативой его можно заменить,
+                т.к. подобные уже не производится и не продаются?
+              </div>
+            </div>
+            <div class="stars__items-wrapper">
+              <span>Оцени статью</span>
+              <div class="stars__items-stars">
+                <span class="rating-items" data-rate="1"></span>
+                <span class="rating-items" data-rate="2"></span>
+                <span class="rating-items active" data-rate="3"></span>
+                <span class="rating-items active" data-rate="4"></span>
+                <span class="rating-items active" data-rate="5"></span>
+              </div>
+              <span>(В среднем 4 на основе 10 голосов)</span>
+            </div>
+          </div>
+          <div class="card__items active answer-items">
+            <h3 class="card__items-title">
+              Ответ мастера<span class="card__items-date">27.04.2021</span>
+            </h3>
+            <div class="card__items-text">
+              Михаил, доброе утро!<br />
+              Samsung SR-30 RMB - двухкамерный и отдельно стоящий холодильник с
+              механическим типом управления, одним мотором и системой полный Ноу
+              Фрост. Термостат вашего холодильника имеет артикул - DA47-10159F
+              (SAMSUNG PFN-174S-05I). Термостаты эти есть в продаже магазинов
+              запчастей. Подойдет любой с рабочей температурой -16-22 градуса.
+            </div>
+            <div class="stars__items-wrapper">
+              <span>Оцени статью</span>
+              <div class="stars__items-stars">
+                <span class="rating-items" data-rate="1"></span>
+                <span class="rating-items" data-rate="2"></span>
+                <span class="rating-items active" data-rate="3"></span>
+                <span class="rating-items active" data-rate="4"></span>
+                <span class="rating-items active" data-rate="5"></span>
+              </div>
+              <span>(В среднем 4 на основе 10 голосов)</span>
+            </div>
+          </div>
+          <div class="card__button-wrapper">
+            <a href="index7.html" class="card__button button"
+              >Добавить комментарий</a
+            >
+            <a href="index6.html" class="card__button button">Задать вопрос</a>
+          </div>
+          <div class="card__link-wrapper">
+            <a href="index5.html" class="card__link"></a>
+            <span class="card__link-text">Вернуться ко всем вопросам</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    @@include('html/footer.html')
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="js/app.min.js"></script>
+  </body>
 </html>

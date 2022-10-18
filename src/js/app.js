@@ -1,5 +1,6 @@
 import * as flsFunctions from './modules/functions.js';
 import './slider.js';
+import './history-slider.js'
 import './burger.js';
 // import './map.js';
 import './stars.js';
