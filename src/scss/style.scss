@@ -25,7 +25,6 @@ body {
 .button {
   display: inline-flex;
   align-items: center;
-  display: inline-flex;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.171;
@@ -34,7 +33,7 @@ body {
   box-shadow: 2px 8px 30px 0px #00bb34;
   border-radius: 10px;
   color: white;
-  text-align: center;
+  // text-align: center;
 }
 .title {
   font-family: "Roboto", sans-serif;
@@ -1455,7 +1454,13 @@ body {
   }
 }
 .item-form__form {
-  margin-bottom: 43px;
+  // margin-bottom: 43px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 43px;
+  padding: 0 10px;
 }
 @media (max-width: 574px) {
   .item-form__form {
@@ -1500,15 +1505,14 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.15;
-  margin-bottom: 46px;
   color: #808080;
+  text-align: center;
 }
 @media (max-width: 574px) {
   .item-form__text {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.172;
-    margin-bottom: 26px;
   }
 }
 /////////////////////////////////////// why-we ///////////////////////////////////
