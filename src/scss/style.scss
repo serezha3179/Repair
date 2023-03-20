@@ -1469,11 +1469,14 @@ body {
 }
 .item-form__input {
   display: block;
+  width: 100%;
   font-size: 22px;
   font-weight: 500;
   line-height: 1.181;
   color: #a5a5a5;
-  padding: 17px 45px;
+  // padding: 17px 45px;
+  padding: 17px 0px;
+  text-align: center;
   border-radius: 10px;
   margin: 0 auto 20px;
   outline: none;
@@ -1483,8 +1486,8 @@ body {
     font-size: 17px;
     font-weight: 500;
     line-height: 1.171;
-    text-align: center;
-    padding: 18px 21px;
+    // text-align: center;
+    // padding: 18px 21px;
   }
 }
 .item-form__button {
@@ -1519,7 +1522,7 @@ body {
 .why-we {
   background: url("../img/why-we/why-we_bg.png") no-repeat 0% -10% / cover;
   padding: 148px 0px 100px;
-  margin-top: -76px;
+  margin-top: -85px;
   position: relative;
   z-index: 1;
 }
@@ -1544,8 +1547,8 @@ body {
   .why-we {
     padding: 148px 0px 23px;
     background: url("../img/why-we/why-we_bg.png") no-repeat 60% -10% / cover;
-    margin-top: -139px;
-    margin-top: 0px;
+    margin-top: -71px;
+    // margin-top: 0px;
   }
 }
 @media (max-width: 320px) {
