@@ -1481,6 +1481,9 @@ body {
   margin: 0 auto 20px;
   outline: none;
 }
+.item-form__input:focus::placeholder {
+  color: transparent;
+}
 @media (max-width: 574px) {
   .item-form__input {
     font-size: 17px;
