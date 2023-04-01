@@ -2600,7 +2600,6 @@ body {
 .contacts__items {
   display: flex;
   background: #f8f8f8;
-  border-radius: 10px 0px 0px 10px;
 }
 @media (max-width: 915px) {
   .contacts__items {
@@ -2634,9 +2633,6 @@ body {
   .contacts__item:last-child {
     background-size: 200px;
   }
-}
-.contacts__image {
-  border-radius: 10px 0px 0px 10px;
 }
 .contacts__item-image {
   margin-right: 50px;
@@ -2721,6 +2717,9 @@ body {
 .contacts-item__items:nth-child(3),
 .contacts-item__items:nth-child(4) {
   margin-bottom: 68px;
+  a {
+    color: #6D6D6D; 
+  }
   .contacts__item-image {
     margin-right: 70px;
   }
@@ -2771,7 +2770,8 @@ body {
 }
 @media (max-height: 582px) {
   .contacts__map {
-    height: 483px;
+    // height: 483px;
+    height: 383px;
   }
 }
 /////////////////////////////////////////// index5 /////////////////////////////////////////
