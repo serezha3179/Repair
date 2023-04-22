@@ -1,3 +1,4 @@
+@import "global.scss";
 @import "reset.scss";
 @import "header.scss";
 @import "slider.scss";
@@ -17,11 +18,7 @@ body {
     overflow: hidden;
   }
 }
-.container {
-  max-width: 1207px;
-  margin: 0 auto;
-  padding: 0px 19px;
-}
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -2320,6 +2317,9 @@ body {
 ///////////////////////////////////////////// index2 ///////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////
 .wrapper-guarantee {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   background: url("../img/guarantee/guarantee_bg1.png") no-repeat 1% 5%,
               url("../img/guarantee/background1.png") no-repeat 0% 43%,
               url("../img/guarantee/background2.png") no-repeat 100% 62%;
@@ -2426,6 +2426,9 @@ body {
 //////////////////////////////////////// index3 //////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////
 .wrapper-legal-entities {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   background: url("../img/legal-intities/legal-intities_bg1.png") no-repeat 1% 7%,
               url("../img/legal-intities/legal-intities_bg1.png") no-repeat 90% 25%,
               url("../img/legal-intities/legal-intities_bg2.png") no-repeat 0% 52%;

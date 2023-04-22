@@ -4,6 +4,7 @@
 <body>
     <div class="wrapper-guarantee">
     @@include('html/header.html',{"guaranteeActive":"active","main":""})
+    <main class="main-content">
     <section class="guarantee">
         <div class="container">
             <div class="breadcrumbs">
@@ -20,7 +21,7 @@
 Срок гарантии будет определяться мастером, так как зависит от комплектующих и характера поломки.
               </div>
         </div>
-    </section>
+    </section> 
     @@include('html/why-we.html')
     <section class="certificates">
         <div class="container">
@@ -38,7 +39,8 @@
         </div>
     </section>
     @@include('html/discount.html')
-    @@include('html/footer.html')
+</main>
+@@include('html/footer.html')
 </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/app.min.js"></script>

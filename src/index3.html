@@ -3,8 +3,8 @@
     @@include('html/head.html',{"title":"Юр.лица"})
 <body>
     <div class="wrapper-legal-entities">
-        <!-- @@include('html/header.html',{"mainActive":"","pricesActive": "","guaranteeActive":"","legalEntitiesActive":"active","main":""}) -->
         @@include('html/header.html',{"legalEntitiesActive":"active","main":""})
+        <main class="main-content">
         <section class="legal-entities">
             <div class="container">
                 <div class="breadcrumbs">
@@ -53,6 +53,7 @@
             </div>
         </section>
         @@include('html/why-we.html')
+      </main>
         @@include('html/footer.html')
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
